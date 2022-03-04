@@ -7,6 +7,7 @@ import FrontPage from './components/FrontPage';
 import NavigationHeader from './components/NavHeader';
 import ReadingNow from './components/ReadingNow';
 import Container from 'react-bootstrap/Container';
+import Gallery from './components/Gallery';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +18,8 @@ function App() {
       <Routes>
         <Route path="/" element={<FrontPage />} />
         <Route path="/reading-now" element={<ReadingNow /> } />
+        <Route path="/cool-pix" element={<Gallery /> } />
+
       </Routes>
   </Container>
   

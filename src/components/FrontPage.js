@@ -10,7 +10,6 @@ export default function FrontPage() {
   return (
     <Container fluid>
       <Row className="front-page-row">
-        <h4 className="headline">Software engineer passionate about inclusive tech.</h4>
         <Col md={2} xl={1} xxl={1}>
           <LinkColumn>
             <Link to="/reading-now">What I'm Reading Now</Link>
@@ -28,7 +27,7 @@ export default function FrontPage() {
         <Col md={2} xl={1} xxl={1}>
           <LinkColumn>
             <a target="_blank" href="https://letterboxd.com/ninoqueen/">My Letterboxd</a>
-            <Link to="/reading-now">Sooo random</Link>
+            <Link to="/cool-pix">Cool Pix</Link>
           </LinkColumn>
         </Col>
 

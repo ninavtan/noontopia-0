@@ -34,7 +34,7 @@ export default function NavigationHeader() {
           </Col>
           <Col xxl={10} className="navigation">
             <button type="button" className="navigation-links" onClick={handleBackClick}>Back</button>
-              <img alt="nina" className="logo-nav" src="https://drive.google.com/uc?export=view&id=1692vnCagVIGK-94rS8d0rWfqmmpYf_GO"></img>
+              <a href="/"><img alt="nina" className="logo-nav" src="https://drive.google.com/uc?export=view&id=1692vnCagVIGK-94rS8d0rWfqmmpYf_GO"></img></a>
               
             <button type="button" onClick = {handleForwardClick} className="navigation-links"><i class="bi bi-caret-left"></i>Forward</button>
           </Col>

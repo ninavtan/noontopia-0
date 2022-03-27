@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 // import { getData } from "../data.js";
 import "../App.css";
 // import { response } from 'express';
+import { booksData } from '../data';
 const API_KEY = process.env.GOOGLE_API_KEY;
 
 
@@ -43,6 +44,13 @@ export default function ReadingNow() {
           <img alt="current-book" src={currentBook}></img>
         </Col> */}
         <Col>
+        {booksData.map((book, index) => {
+          return (
+            <div key={index}>
+              {book.title}
+            </div>
+          )
+        })}
           <i>Nightbitch</i> by Rachel Yoder
           <br />
           <img src={currentBook.img} alt="current-book"></img>

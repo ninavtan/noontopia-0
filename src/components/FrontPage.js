@@ -10,21 +10,20 @@ export default function FrontPage() {
   return (
     <Container fluid>
       <Row className="front-page-row">
-        <Col md={2} xl={1} xxl={1}>
+        <Col xl={3} xxl={3}>
           <LinkColumn>
             <Link to="/reading-now">What I'm Reading Now</Link>
-            <Link to="/reading-now">Plant Updates</Link>
+            <a rel="noreferrer" target="_blank" href="https://calm-basin-65498.herokuapp.com/">Digi-Space</a>
           </LinkColumn>
           
         </Col>
-        {/* <Col xs={12} sm={12} md={10}> */}
-        <Col md={2} xxl={10}>
+        <Col xl={6} xxl={6}>
           <div className="banner-container">
             <img id="banner-image" alt="new-zealand" src="https://drive.google.com/uc?export=view&id=1rrxT9Ar6josuOssuj0QJIViPRqDn7CXF"></img>
           </div>
         </Col>
 
-        <Col md={2} xl={1} xxl={1}>
+        <Col xl={3} xxl={3}>
           <LinkColumn>
             <a target="_blank" href="https://letterboxd.com/ninoqueen/">My Letterboxd</a>
             <Link to="/cool-pix">Cool Pix</Link>
@@ -46,6 +45,7 @@ const LinkColumn = styled.div`
   align-content: space-between;
   justify-content: space-around;
   text-align: center;
+  // margin-bottom: 2em;
   
   
   

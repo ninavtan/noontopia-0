@@ -14,8 +14,8 @@ export default function FrontPage() {
       <Row className="front-page-row">
         <Col xl={3} xxl={3}>
           <LinkColumn>
-            <Link to="/reading-now">What I'm Reading Now</Link>
-            <a rel="noreferrer" target="_blank" href="https://digispace.herokuapp.com/">Digi-Space</a>
+          <a rel="noreferrer" target="_blank" href="https://digispace.herokuapp.com/">Digi-Space</a>
+            {/* <Link to="/reading-now">What I'm Reading Now</Link> */}
           </LinkColumn>
           
         </Col>
@@ -26,7 +26,7 @@ export default function FrontPage() {
         <Col xl={3} xxl={3}>
           <LinkColumn>
             <a target="_blank" href="https://letterboxd.com/ninoqueen/">My Letterboxd</a>
-            <Link to="/cool-pix">Cool Pix</Link>
+            {/* <Link to="/cool-pix">Cool Pix</Link> */}
           </LinkColumn>
         </Col>
 

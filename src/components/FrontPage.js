@@ -11,17 +11,23 @@ import BannerCarousel from './BannerCarousel';
 export default function FrontPage() {
   return (
     <Container fluid>
+      <Row>
+        <Header>
+          <h1>Nina Tan</h1>
+          <h2>Software developer based in Durham, NC</h2>
+        </Header>
+        
+      </Row>
       <Row className="front-page-row">
         <Col xl={3} xxl={3}>
           <LinkColumn>
           <a rel="noreferrer" target="_blank" href="https://digispace.herokuapp.com/">Digi-Space</a>
-            {/* <Link to="/reading-now">What I'm Reading Now</Link> */}
           </LinkColumn>
           
         </Col>
-        <Col xl={6} xxl={6}>
+        {/* <Col xl={6} xxl={6}>
           <BannerCarousel/>
-        </Col>
+        </Col> */}
 
         <Col xl={3} xxl={3}>
           <LinkColumn>
@@ -32,10 +38,15 @@ export default function FrontPage() {
 
       </Row>
       </Container>
-      
-    
+
   )
 }
+
+const Header = styled.div`
+  text-align: center;
+  font-family: 'Syne', sans-serif;
+  font-weight: bold;
+  `
 
 const LinkColumn = styled.div`
   height: 100%;
@@ -45,8 +56,5 @@ const LinkColumn = styled.div`
   align-content: space-between;
   justify-content: space-around;
   text-align: center;
-  // margin-bottom: 2em;
-  
-  
-  
+ 
 `

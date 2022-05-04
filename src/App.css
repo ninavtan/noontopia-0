@@ -3,7 +3,8 @@
   overflow-x: hidden;
 
   cursor: url("./mymelody.png"), auto;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Syne", sans-serif;
+  font-weight: bold;
 }
 .App-header {
   text-align: center;

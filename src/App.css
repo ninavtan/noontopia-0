@@ -1,7 +1,4 @@
 * {
-  /* overflow-y: hidden; */
-  overflow-x: hidden;
-
   cursor: url("./mymelody.png"), auto;
   font-family: "Syne", sans-serif;
   font-weight: bold;
@@ -46,6 +43,10 @@
 .links {
   margin-top: 2em;
   text-decoration: none !important;
+}
+
+.app-image {
+  width: 100%;
 }
 
 #banner-image {

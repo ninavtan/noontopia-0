@@ -19,20 +19,23 @@ export default function FrontPage() {
         
       </Row>
       <Row className="front-page-row">
-        <Col xl={3} xxl={3}>
+        <Col>
           <LinkColumn>
           <a rel="noreferrer" target="_blank" href="https://digispace.herokuapp.com/">Digi-Space</a>
+          <h6>A corner of cyberspace that empowers collaboration and connection.</h6>
+          <h7>Technology used: Javascript, React, Redux, MongoDB, Express, socket.io, konva.js </h7>
+          <img className="app-image" src="https://drive.google.com/uc?export=view&id=1_o4baSvAY3bpdQ-L7NadijEJIB6b43Wj" alt="screenshot of digispace app"></img>
           </LinkColumn>
           
         </Col>
-        {/* <Col xl={6} xxl={6}>
-          <BannerCarousel/>
-        </Col> */}
 
-        <Col xl={3} xxl={3}>
+        <Col>
           <LinkColumn>
-            <a target="_blank" href="https://letterboxd.com/ninoqueen/">My Letterboxd</a>
-            {/* <Link to="/cool-pix">Cool Pix</Link> */}
+            <a target="_blank" href="https://agile-mello.herokuapp.com/">mello</a>
+            <h6>A Kanban-style, list-making application.</h6>
+            <h7>Technology used: Javascript, React, Redux, MongoDB, Express </h7>
+            <img className="app-image" src="https://drive.google.com/uc?export=view&id=1phLiyh05Z_kJaLJbxXYj-xN_5VUWq5Sc" alt="screenshot of digispace app"></img>
+          
           </LinkColumn>
         </Col>
 
@@ -56,5 +59,9 @@ const LinkColumn = styled.div`
   align-content: space-between;
   justify-content: space-around;
   text-align: center;
- 
+  border: 1px solid black;
+  padding: 2em;
+`
+
+const AppImage = styled.div`
 `

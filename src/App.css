@@ -11,10 +11,9 @@
   text-align: center;
 }
 .navigation {
-  font-size: 1em;
+  padding: 1em;
   align-self: flex-start;
-  text-decoration: none;
-  align-items: center;
+  margin: 1em;
 }
 
 .logo {
@@ -23,17 +22,18 @@
 }
 
 .logo-nav {
-  width: 15%;
-  height: 15%;
+  width: 10%;
+  height: 10%;
   text-align: center;
-  margin: 1em auto;
 }
 
 .navigation-links {
   text-decoration: none;
   background-color: transparent;
-  border: none;
+  border: 1px solid black;
   color: green;
+  text-align: center;
+  margin: 0 1em;
 }
 
 .links-navigation {
@@ -54,8 +54,6 @@
   max-width: 90%;
   min-height: 65%;
   min-width: 80%;
-  /* height: 70%;
-  width: 80%; */
   text-align: center;
   margin: 1em auto;
 }
@@ -69,7 +67,6 @@
 }
 
 .front-page-container {
-  /* height: 100vh; */
   width: 100%;
   font-family: "Times New Roman", Times, serif;
   background-color: green;
@@ -88,27 +85,12 @@
   font-family: "Times New Roman", Times, serif;
 }
 
-.front-page-row {
-  height: 100%;
-  width: 100%;
-  text-align: center;
-}
-
 .app-container {
   height: 100vh;
 }
 
-/* .app-container-2 {
-  height: 100vh;
-} */
-
 #root {
   height: 100vh;
-}
-
-.app-container-2 {
-  width: 100%;
-  height: 100%;
 }
 
 #gallery-image {

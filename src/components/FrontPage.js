@@ -18,7 +18,7 @@ export default function FrontPage() {
         </Header>
         
       </Row>
-      <Row className="front-page-row">
+      <Row>
         <Col>
           <LinkColumn>
           <a rel="noreferrer" target="_blank" href="https://digispace.herokuapp.com/">Digi-Space</a>

@@ -13,7 +13,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-  <Container className="app-container-2">
+  <Container>
     <NavigationHeader />
       <Routes>
         <Route path="/" element={<FrontPage />} />

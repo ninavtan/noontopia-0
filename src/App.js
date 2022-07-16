@@ -19,8 +19,8 @@ function App() {
         <Route path="/" element={<FrontPage />} />
         <Route path="/reading-now" element={<ReadingNow /> } />
         <Route path="/cool-pix" element={<Gallery /> } />
-
       </Routes>
+
   </Container>
   
   );

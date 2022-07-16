@@ -7,7 +7,7 @@ function useRecentlyPlayed() {
     const [isBusy, setIsBusy] = useState(true);
 
     useEffect(() => {
-        const url = 'http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=nina_tan&api_key=137fbd608b3d9d348d14f15be4505ae2&format=json&limit=3';
+        const url = 'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=nina_tan&api_key=137fbd608b3d9d348d14f15be4505ae2&format=json&limit=3';
 
         const first = () => {
             console.log('hi');
